@@ -7,7 +7,7 @@ import rx.Observable
 class MongoService {
   static Observable<Document> find() {
     MongoClient mongoClient = MongoClients.create()
-    MongoCollection collection = mongoClient.getDatabase('redsky').getCollection('cartwheel_offers')
+    MongoCollection collection = mongoClient.getDatabase('YOUR_DATABASE').getCollection('YOUR_COLLECTION')
     collection.find().toObservable()
   }
 }
