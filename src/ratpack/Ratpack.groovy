@@ -21,9 +21,9 @@ ratpack {
 
   handlers {
     get {
-        registry.get(MongoService).find().toList().subscribe() {
-          render json(it)
-        }
+      registry.get(MongoService).find().toList().subscribe() {
+        render json(it)
+      }
     }
 
     path("works") {
@@ -31,7 +31,7 @@ ratpack {
         get {
           Promise.of { f ->
             registry.get(MongoService).find().toList().subscribe() {
-              render f.success(json(it))
+              f.success(json(it))
             }
           }.then {
             render it
