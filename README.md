@@ -1,6 +1,8 @@
-# mongoRxTest
+# RatpackMongoRxTest
+The following project represents an issue I'm having where I must wrap observables in a promise. 
 
-default get will return a double transmission exception 
+The default route will return an observable, this seems to cause a ratpack.handling.internal.DoubleTransmissionException: attempt at double transmission for: / 
 
-the works route works for me.
+If you go do localhost:5050/works where I wrap the observable in a Promise - this will return a result
+
 
