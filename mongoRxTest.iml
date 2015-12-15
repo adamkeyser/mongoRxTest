@@ -91,6 +91,17 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ratpack/ratpack-rx/1.1.1/485caf0e489596216a4fafc2b1c796a7409661da/ratpack-rx-1.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ratpack/ratpack-rx/1.1.1/1390603d2f0ff0a51ba755f7a6c2e8afde865c9e/ratpack-rx-1.1.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
           <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.0.Beta7/8cf5b2bb72b681a118750550a99ac91600553b6/netty-handler-4.1.0.Beta7.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -283,6 +294,17 @@
         <JAVADOC />
         <SOURCES>
           <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.0.14/e7bad33560b6c163b25073e85e3b2f70948da2bc/rxjava-1.0.14-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava-reactive-streams/1.0.1/87d6f207aee10615e108f7121a873f787ab92408/rxjava-reactive-streams-1.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava-reactive-streams/1.0.1/a8c6d89a45088b822f5ea85b986210c2cbcc7252/rxjava-reactive-streams-1.0.1-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
